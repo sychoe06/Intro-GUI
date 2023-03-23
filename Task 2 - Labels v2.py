@@ -5,10 +5,10 @@ from tkinter import *
 root = Tk()
 
 root.title("Welcome")
-computer = Label(root, bg="green", fg="white", text="Computer",
+computer = Label(root, bg="lime", fg="white", text="Computer",
                  font=("Times", 50, "normal"))
 science_is = Label(root, bg="blue", fg="yellow", text="Science is",
-                   font=("Comic Sans", 50, "bold"))
+                   font=("Comic Sans", 50))
 awesome = Label(root, bg="orange", fg="red", text="awesome!",
                 font=("Britannica", 60, "bold"))
 
